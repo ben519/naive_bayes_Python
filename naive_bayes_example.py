@@ -1,5 +1,6 @@
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import BernoulliNB
+import pandas as pd
 
 # Create a list of each user's job title (i.e. a "corpus" of documents)
 corpus = [
